@@ -1,5 +1,7 @@
-public class NonFlyingBird {
-  // TODO fix class declaration
-
-  // TODO override toString method by returning a string with the class name
+public abstract class NonFlyingBird extends Bird {
+    @Override
+    public String toString() {
+//        System.out.println(this.getClass().getCanonicalName());
+        return this.getClass().getCanonicalName();
+    }
 }
